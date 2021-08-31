@@ -4,11 +4,14 @@ body {
     color: white;
     margin: 0;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main{
     background-color: rgba(0, 0, 0, 0.658);
     padding-bottom: 141px;
+    background-size: cover;
+    height: 572px;
 }
 
 .input-section{
