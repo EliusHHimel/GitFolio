@@ -9,9 +9,10 @@ body {
 
 main{
     background-color: rgba(0, 0, 0, 0.658);
-    padding-bottom: 141px;
     background-size: cover;
-    height: 572px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 713px;
 }
 
 .input-section{
@@ -32,6 +33,7 @@ main{
     padding: 10px 20px;
     border-radius: 20px;
     background-color: rgb(13, 142, 146);
+    color: blanchedalmond;
 }
 .profile-btn:hover{
     background-color: rgb(7, 84, 87);
@@ -39,13 +41,22 @@ main{
 #user-container{
     margin-top: 20px;
 }
-
 .profile-image{
     border: 2px solid coral;
     border-radius: 50%;
     width: 20%;
 }
-
+a:visited{
+    color: white;
+}
+.username{
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
 .follow-section, .repo-details{
     display: grid;
     grid-template-columns: repeat(2, 1fr);

@@ -14,6 +14,7 @@ const displayUser = (user) => {
     userContainer.innerHTML = `
     <img class="profile-image" src="${user.avatar_url}" alt="">
         <h1 class="full-name">${user.name}</h1>
+        <a href="${user.html_url}" class="username" target="_blank">@${user.login}</a>
         <div class="follow-section">
             <h4 class="followers">Followers: ${user.followers}</h4>
             <h4 class="following">Followings: ${user.following}</h4>
