@@ -19,11 +19,22 @@ main{
 }
 
 .input-field{
-    padding: 10px 5px;
+    padding: 10px 0px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 2px solid darkgray;
+    color: white;
+    width: 250px;
+    background-color: rgba(0, 255, 255, 0.137);
 }
 
 .profile-btn{
     padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(13, 142, 146);
+}
+.profile-btn:hover{
+    background-color: rgb(7, 84, 87);
 }
 #user-container{
     margin-top: 20px;
@@ -45,4 +56,5 @@ main{
     background-color: rgba(0, 0, 0, 0.658);
     padding: 10px;
     margin: 5px;
+    
 }
