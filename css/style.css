@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-image: url('https://cdn.discordapp.com/attachments/690148635375435825/856863476529627166/wallpaperflare.com_wallpaper.jpg');
+    color: white;
+margin: 0;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding-bottom: 141px;
+}
+
+.input-section{
+    padding-top: 10px;
+}
+
+.input-field{
+    padding: 10px 5px;
+}
+
+.profile-btn{
+    padding: 10px 20px;
+}
+#user-container{
+    margin-top: 20px;
+}
+
+.profile-image{
+    border: 2px solid coral;
+    border-radius: 50%;
+    width: 20%;
+}
+
+.follow-section, .repo-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 500px;
+}
+
+.followers, .following, .public-repo, .public-gist{
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 10px;
+    margin: 5px;
+}
